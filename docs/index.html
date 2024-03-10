@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+</head>
+<style>
+    header {
+        background-color: #333;
+
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section1
+    {
+        display: flex;
+        align-items: center;
+    }
+    .section1 img {
+        width: 50px;
+    }
+    .section1 a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    .section2 a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    .section2 a:last-child {
+        background-color: #fff;
+        color: #333;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+    .section2 a:last-child:hover {
+        background-color: #f5f5f5;
+    }
+    .items
+    {
+
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+    }
+    .items h1 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .item {
+        flex-basis: 23%;
+        text-align: center;
+        border: 7px solid black;
+    }
+    a{
+        text-decoration: none;
+
+    }
+    .content,.restaurants {
+        margin: 0 20px;
+    }
+    .restaurants h1 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .mrestuarants ,.onlineress{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .hotel ,.onlineres{
+        flex-basis: 23%;
+        text-align: center;
+        border: 7px solid black;
+    }
+    nav a{
+        text-decoration: none;
+        color: #333;
+        padding: 5px 10px;
+        border: 1px solid #333;
+        border-radius: 5px;
+        margin: 0 5px;
+    }
+    nav a:hover {
+        background-color: #333;
+        color: #fff;
+    }
+    .online h1 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .tags {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: start;
+        height: 40px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .tag,.cuisine {
+        background-color: #f5f5f5;
+        color: #333;
+        padding: 5px 10px;
+        border-radius: 20px;
+        margin: 0 5px;
+        width:fit-content;
+
+    }
+    .third h1 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .cuisines {
+        display: flex;
+        margin-top: 20px;
+    }
+    .footer
+    {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+</style>
+<body>
+    <header>
+        <nav class="container">
+            <div class="section1">
+                <img src="swiggy.jpg" alt="Swiggy Logo">
+                <a href="#">About</a>
+            </div>
+            <div class="section2">
+                <a href="#">Search</a>
+                <a href="#">Offers</a>
+                <a href="#">Help</a>
+                <a href="#">Login</a>
+                <a href="#">Cart</a>
+           </div>
+        </nav>
+    </header>
+    <main class="content">
+        <h1>Whats on Your Mind?</h1>
+        <div class="items">
+            <div class="item">
+                <a href="page02.html">
+                    <img src="burger.jpg" alt="Burger">
+                    <h3>Burger</h3>
+                </a>
+            </div>
+            <div class="item">
+                <a href="page02.html">
+                    <img src="pizza.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                </a>
+            </div>
+            <div class="item">
+                <a href="page02.html"> <img src="fries.jpg" alt="Fries">
+                    <h3>Fries</h3></a>
+            </div>
+            <div class="item">
+                <a href="page02.html">
+                    <img src="coke.jpg" alt="Coke">
+                    <h3>Coke</h3>
+                </a>
+            </div>
+        </div>
+
+    </main>
+    <main class="restaurants">
+        <h1>Top Restaurants chain in vizag</h1>
+        <div class="mrestuarants">
+            <div class="hotel">
+                <a href="#">
+                    <img src="dominos.jpg" alt="Dominos">
+                    <h3>Dominos</h3>
+                    <p>10:00AM to 10:00PM</p>
+                    <p>Gajuwaka,Visakhapatnam</p>
+                </a>
+            </div>
+            <div class="hotel">
+                <a href="#">
+                    <img src="dominos.jpg" alt="Dominos">
+                    <h3>Dominos</h3>
+                    <p>10:00AM to 10:00PM</p>
+                    <p>Gajuwaka,Visakhapatnam</p>
+                </a>
+            </div>
+            <div class="hotel">
+                <a href="#">
+                    <img src="dominos.jpg" alt="Dominos">
+                    <h3>Dominos</h3>
+                    <p>10:00AM to 10:00PM</p>
+                    <p>Gajuwaka,Visakhapatnam</p>
+                </a>
+            </div>
+            <div class="hotel">
+                <a href="#">
+                    <img src="dominos.jpg" alt="Dominos">
+                    <h3>Dominos</h3>
+                    <p>10:00AM to 10:00PM</p>
+                    <p>Gajuwaka,Visakhapatnam</p>
+                </a>
+            </div>
+        </div>
+
+    </main>
+    <main class="online">
+        <h1>Restuarants with online food delivery</h1>
+        <nav class="tags">
+            <a href="#" class="tag">Filter</a>
+            <a href="#" class="tag">Sort By</a>
+            <a href="#" class="tag">Fast Delivery</a>
+            <a href="#" class="tag">New on Swiggy</a>
+            <a href="#" class="tag">Ratings 4.0+</a>
+            <a href="#" class="tag">Pure Veg</a>
+            <a href="#" class="tag">Offers</a>
+            <a href="#" class="tag">Rs.300-600</a>
+            <a href="#" class="tag">Less than 300</a>
+        </nav>
+        <div class="onlineress">
+            <div class="onlineres">
+                <a href="#">
+                    <img src="dominos.jpg" alt="Dominos">
+                    <h3>Dominos</h3>
+                    <p>10:00AM to 10:00PM</p>
+                    <p>Gajuwaka,Visakhapatnam</p>
+                </a>
+            </div>
+            <div class="onlineres">
+                <a href="#">
+                    <img src="dominos.jpg" alt="Dominos">
+                    <h3>Dominos</h3>
+                    <p>10:00AM to 10:00PM</p>
+                    <p>Gajuwaka,Visakhapatnam</p>
+                </a>
+        </div>
+        <div class="onlineres">
+            <a href="#">
+                <img src="dominos.jpg" alt="Dominos">
+                <h3>Dominos</h3>
+                <p>10:00AM to 10:00PM</p>
+                <p>Gajuwaka,Visakhapatnam</p>
+            </a>
+            </div>
+            <div class="onlineres">
+                <a href="#">
+                    <img src="dominos.jpg" alt="Dominos">
+                    <h3>Dominos</h3>
+                    <p>10:00AM to 10:00PM</p>
+                    <p>Gajuwaka,Visakhapatnam</p>
+                </a>
+            </div>
+    </main>
+    <main>
+        <div class="third">
+            <h1>Best Cuisines Near Me</h1>
+            <div class="cuisines">
+                <div class="cuisine">
+                    <a href="#">Chinese Restaurant Near Me</a>
+                </div>
+                <div class="cuisine">
+                  <a href="#">North Indian Restaurant Near Me</a>
+                </div>
+                <div class="cuisine">
+                    <a href="#">South Indian Restaurant Near Me</a>
+                </div>
+                <div class="cuisine">
+                    <a href="#">Fast Food Restaurant Near Me</a>
+                </div>
+                <div class="cuisine">
+                    <a href="#">Street Food Restaurant Near Me</a>
+                </div>
+                <div class="cuisine">
+                    <a href="#">Italian Restaurant Near Me</a>
+                </div>
+                <div class="cuisine">
+                    <a href="#">Continental Restaurant Near Me</a>
+                </div>                
+
+        </div>
+    </main>
+
+</body>
+<footer>
+    <div class="footer">
+        <h1>
+            For Better experience,download the app now
+        </h1>
+        <img src="final.png">
+
+    </div>
+
+</footer>
+</html>

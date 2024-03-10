@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container
+    {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .section1
+    {
+        margin-left: 15%;
+        display: flex;
+        align-items: center;
+
+
+    }
+    .section1 img {
+        margin-right:50px;
+        width: 100px;
+    }
+    .section2
+    {
+        margin-right: 15%;
+        display: flex;
+        align-items: center;
+
+    }
+    .section1 a,.section2 a{
+        margin-left: 30px;
+        color:black;
+        text-decoration: none;
+
+    }
+    p{
+        font-size: 20px;
+    }
+    body{
+        background-color:lightgray;
+    }
+    nav{
+        background-color: white;
+    }
+    .info1,.info2
+    {
+        padding-left: 30px;
+        height: 200px;
+        background-color: white;
+        width:400px;
+        height:250px;
+    }
+    .info1 button,.info2 button
+    {
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .info2 button p
+    {
+        font-size: 10px;
+
+    }
+    .one 
+    {
+      background-color:  orange;
+    }
+    .two
+    {
+        background-color: lightgreen;
+
+    }
+    .add
+    {
+        margin-top: 30px;
+        padding-left: 50px;
+        padding-top: 10px;
+        height: 90px;
+        background-color: white;
+        color: gray;
+    }
+    main{   
+        margin-left: 20%;
+        margin-right:  10%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .side
+    {
+        background-color: white;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .test
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .first img
+    {
+        width: 100px;
+    }
+    .second p
+    {
+        margin-top: 20px;
+        font-size:  18px;
+        color: gray;
+    }
+    .final{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 5px;
+        background-color: orange;
+        color: white;
+        width:fit-content;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+</style>
+<body>
+    <nav>
+        <div class="container">
+            <div class="section1">
+                <img src="swiggy.jpg" alt="">
+                <a href="#"><p>Secure CheckOut</p></a>
+            </div>
+            <div class="section2">
+                <a href="#"><p>Help</p></a>
+                <a href="#"><p>SignIn</p></a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="info">
+            <div class="info1">
+                <h2>Restaurant is now closed</h2>
+                <p>Restaurant is no longer Taking Orders</p>
+                <button class="one">View all restaurants</button>
+            </div>
+            <div class="info2">
+                <h2>Restaurant is now closed</h2>
+                <p>Restaurant is no longer Taking Orders</p>
+                <button class="one">
+                    <p>Have a Account</p>
+                    <p>Login</p>
+                </button>
+                <button class="two">
+                    <p>New To Swiggy?</p>
+                    <p>Sign UP</p>
+                </button>
+
+            </div>
+            <div class="add">
+                <h2>Delivery Address</h2>
+            </div>
+            <div class="add">
+                <h2>Payment</h2>
+            </div>
+        </div>
+        <div class="side">
+            <div class="first test">
+                <img src="dominos.jpg">
+                <p>Dominos,Gajuwaka</p>
+            </div>
+            <div class="test">
+                <p>Fries</p>
+                <p>Unavailable</p>
+            </div>
+            <div class="header">
+                <h2>Bill Details</h3>
+                <div class="second test">
+                    <p>Items Total</p>
+                    <p>Rs.250</p>
+                </div>
+                <div class="second test">
+                    <p>Delivery Fee</p>
+                    <p>Rs.26</p>
+                </div>
+                <div class="second test">
+                    <p>Delivery Tip</p>
+                    <p> Add Tip</p>
+                </div>
+                <div class="second test">
+                    <p>Platform fee</p>
+                    <p>Rs.3</p>
+                </div>
+                <div class="second test">
+                    <p>GST</p>
+                    <p>Rs.13</p>
+                </div>
+            </div>
+            <div class="second test">
+                <p>To Pay</p>
+                <p>Rs.292</p>
+            </div>
+            <a  href="index.html"class="final"><p>Go to Main Page</p></a>
+        </div>
+    </main>
+
+</body>
+</html>
